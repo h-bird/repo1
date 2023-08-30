@@ -6,8 +6,10 @@ pipeline {
             steps {
                 sh 'echo "Hello World"'
                 sh '''
-                    echo "Multiline shell steps works too"
                     ls -lah
+                    ls -al /home
+                    id
+                    cat /etc/os-release
                 '''
             }
         }
