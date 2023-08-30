@@ -10,6 +10,7 @@ pipeline {
                     ls -al /home
                     id
                     cat /etc/os-release
+                    ls /home/gerrit/
                 '''
             }
         }
