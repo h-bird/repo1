@@ -11,6 +11,7 @@ pipeline {
                     id
                     cat /etc/os-release
                     ls /home/gerrit/
+                    echo "Automatically tiggered"
                 '''
             }
         }
